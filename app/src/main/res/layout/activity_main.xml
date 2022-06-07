@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <tw.edu.pu.s1095466.MySurfaceView
+    <tw.edu.pu.s1095466.tw.edu.pu.s1095466.MySurfaceView
         android:id="@+id/mysv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

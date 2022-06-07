@@ -1,3 +1,5 @@
+package tw.edu.pu.s1095466
+
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -5,6 +7,8 @@ import android.graphics.Canvas
 import android.util.AttributeSet
 import android.view.SurfaceHolder
 import android.view.SurfaceView
+import tw.edu.pu.s1095466final.R
+
 class MySurfaceView(context: Context?, attrs: AttributeSet?) : SurfaceView(context, attrs) ,SurfaceHolder.Callback{
     lateinit var surfaceHolder: SurfaceHolder
     lateinit var BG: Bitmap
