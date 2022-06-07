@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <tw.edu.pu.410954661final.MySurfaceView
+    <tw.edu.pu.s1095466.MySurfaceView
         android:id="@+id/mysv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -35,7 +35,8 @@
         app:layout_constraintStart_toEndOf="@+id/img"
         app:layout_constraintTop_toTopOf="@+id/img"
         app:srcCompat="@drawable/picture"
-        app:layout_constraintHorizontal_chainStyle="spread"/>
+        app:layout_constraintHorizontal_chainStyle="spread"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/img3"

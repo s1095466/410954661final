@@ -18,7 +18,7 @@ import com.bumptech.glide.module.AppGlideModule
 import kotlinx.coroutines.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.NonCancellable.start
-import tw.edu.pu.midtermgw0515.databinding.ActivityMainBinding
+import tw.edu.pu.s1095466final.databinding.ActivityMainBinding
 
 @GlideModule
 public final class MyAppGlideModule : AppGlideModule()
